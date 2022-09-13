@@ -13,6 +13,7 @@
 .header__ttl{
   display: inline;
   margin-left: 20px;
+  color: rgb(7, 7, 132);
 }
 
 .header__btn{
@@ -28,7 +29,7 @@
 
 .btn{
   text-decoration: none;
-  color: rgb(42, 8, 235);
+  color: rgb(7, 7, 132);
   font-size: 12px;
 }
 
@@ -46,9 +47,9 @@
 
 .main{
   position: relative;
-  top: 60px;
+  top: 100px;
   width: 100%;
-  background-color: gray;
+  z-index: 10;
 }
 
 .main__big_box {
@@ -56,26 +57,28 @@
   bottom: 0%;
   left: 0%;
   width: 70%;
-  height: 40%;
-  background-color: blue;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
 }
 
 .main__big_box-blue {
-  background-color: blue;
+  background-color: rgb(7, 7, 132);
   width: 100%;
-  height: 50%;
+  height: 70%;
 }
 
 .main__big_box-ttl {
-  margin-top: 5%;
-  font-size: 28px;}
+  font-size: 44px;
+  font-weight: 100;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+}
 
 .main__img{
-  position: absolute;
-  top: 0%;
-  right: 0%;
+  margin: 0 0 auto auto;
   width: 50%;
-  background-color: violet;
+  z-index: 10;
 }
 
 .main__img img{
