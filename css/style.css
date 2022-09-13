@@ -49,41 +49,51 @@
   position: relative;
   top: 100px;
   width: 100%;
-  z-index: 10;
+  height: 50vh;
 }
 
-.main__big_box {
+.main__ttl {
   position: absolute;
-  bottom: 0%;
-  left: 0%;
-  width: 70%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  z-index: 1;
-}
-
-.main__big_box-blue {
-  background-color: rgb(7, 7, 132);
-  width: 100%;
-  height: 70%;
-}
-
-.main__big_box-ttl {
-  font-size: 44px;
+  top: 30%;
+  left: 0;
+  height: 20%;
+  font-size: 40px;
   font-weight: 100;
   font-family: Helvetica, "游ゴシック", sans-serif;
+  padding-bottom: 0%;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
 }
 
+.main__ttl-content{
+  z-index: 4;
+}
+
+.main__box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: rgb(7, 7, 132);
+  width: 80%;
+  height: 40%;
+  z-index: 0;
+}
+
+
 .main__img{
-  margin: 0 0 auto auto;
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 50%;
-  z-index: 10;
+  height: 70%;
+  z-index: 20;
 }
 
 .main__img img{
   width: 100%;
-  margin-bottom: 50px;
+  height: 100%;
+  z-index: 100;
 }
 
 
