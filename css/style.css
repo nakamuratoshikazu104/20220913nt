@@ -1,6 +1,5 @@
 .page{
   width: 100%;
-  height: 100%;
 }
 
 .header{
@@ -49,7 +48,7 @@
   position: relative;
   top: 100px;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
 }
 
 .main__ttl {
@@ -92,7 +91,6 @@
 
 .main__img img{
   width: 100%;
-  height: 100%;
   z-index: 100;
 }
 
